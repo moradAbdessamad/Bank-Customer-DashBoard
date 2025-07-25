@@ -316,4 +316,4 @@ def update_graph(selected_month_tab, month_slider_tab_second):
 
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run(debug=True)
