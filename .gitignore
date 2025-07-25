@@ -1,1 +1,2 @@
-*.csv
+data/bank_transactions.csv
+data/bank_transactions_cleaned.csv
