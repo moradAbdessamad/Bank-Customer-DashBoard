@@ -21,6 +21,22 @@ This project analyzes bank transaction data to identify customer segments and pa
     └── main.ipynb                      # Exploratory Data Analysis notebook
 ```
 
+## Dataset Features
+
+**Dataset Source**: [Bank Customer Segmentation Dataset](https://www.kaggle.com/datasets/shivamb/bank-customer-segmentation)
+
+The cleaned dataset includes the following columns:
+- `CustGender`: Customer gender (M/F)
+- `CustLocation`: Customer location/city
+- `CustAccountBalance`: Customer's account balance
+- `TransactionDate`: Date of transaction
+- `TransactionTime`: Time of transaction
+- `TransactionAmount`: Transaction amount in INR
+- `Age`: Customer age
+- `UtilizationRatio`: Calculated utilization ratio
+- `TransactionMonth`: Extracted month from transaction date
+- Various cluster labels from ML analysis
+
 ## Features
 
 ### Data Analysis & Clustering
